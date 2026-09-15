@@ -1,5 +1,15 @@
 work/*
-sw/*
-!sw/design_1_wrapper_2_fft.xsa
-!sw/vitis/hello_world_1/src/helloworld.c
 bd/*
+
+# Ignore the vitis folder contents
+sw/vitis/*
+# Un-ignore the hardware handoff file
+!sw/design_1_wrapper_2_fft.xsa
+# Un-ignore the directory path down to the C file
+!sw/vitis/hello_world_1/
+sw/vitis/hello_world_1/*
+!sw/vitis/hello_world_1/src/
+sw/vitis/hello_world_1/src/*
+# Finally, un-ignore the actual C file
+!sw/vitis/hello_world_1/src/helloworld.c
+
