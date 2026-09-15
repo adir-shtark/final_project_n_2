@@ -1,0 +1,5 @@
+work/*
+sw/*
+!sw/design_1_wrapper_2_fft.xsa
+!sw/vitis/hello_world_1/src/helloworld.c
+bd/*
